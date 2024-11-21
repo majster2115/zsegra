@@ -1,0 +1,63 @@
+body{
+    background-color: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    display: grid;
+    grid-template-columns: repeat(2);
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-family: 'Public Pixel', sans-serif;
+}
+
+.zse-container{
+    display: grid;
+    grid-template-columns: repeat(2, 150px);
+    grid-gap: 10px;
+}
+
+#green {
+    background-color: green;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+} 
+
+#red{
+    background-color: red;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#yellow{
+    background-color: yellow;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+#blue{
+    background-color: blue;
+    height: 150px;
+    width: 150px;
+    border-radius: 10px;
+}
+
+.game-over{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: red;
+    background-color: white;
+}
+
+.pressed{
+    border: 2px solid black;
+}
